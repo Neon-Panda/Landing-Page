@@ -78,12 +78,13 @@ button {
 }
 
 .second-container {
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-family: Roboto;
+    padding-top: 30px;
     gap: 30px;
 }
 
@@ -108,8 +109,14 @@ button {
     flex-direction: column;
     justify-content: center;
     width: 200px;
-    font-size: 16;
-    font-weight: 500;
+}
+
+.item .text {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
 }
 
 .item img {
@@ -132,7 +139,7 @@ button {
     padding: 0;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     color: #1f2937;
     display: flex;
     justify-content: center;
@@ -162,7 +169,7 @@ button {
     justify-content: space-around;
     align-items: center;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .fourth-container .left .banner-top {
