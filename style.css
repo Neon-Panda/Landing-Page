@@ -111,6 +111,30 @@ button {
 
 
 .third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
     height: 400px;
+}
+
+.third-container h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
+    color: #6e6e6e;
+    display: flex;
+    justify-content: center;
+    width: 750px; 
+}
+
+.third-container h2 {
+    margin: 0;
+    padding: 0;
+    width: 750px;
+    display: flex;
+    justify-content: flex-end;
 }
